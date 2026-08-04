@@ -2965,7 +2965,16 @@
    "packages": [
     "05 Hiroshima :: Peace Memorial Park + Museum"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/atomic-bomb-dome.jpg",
+    "article": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial",
+    "articleTitle": "Hiroshima Peace Memorial",
+    "distanceM": 291,
+    "artist": "Oilstreet",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGenbaku_Dome04-r.JPG"
+   }
   },
   {
    "slug": "atomic-bomb-hypocentre-monument",
@@ -4733,16 +4742,7 @@
     "05 Hiroshima :: Peace Memorial Park + Museum",
     "05 Hiroshima :: Peace Park guided visit"
    ],
-   "image": {
-    "src": "images/options/hiroshima-peace-memorial-park.jpg",
-    "article": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial",
-    "articleTitle": "Hiroshima Peace Memorial",
-    "distanceM": 291,
-    "artist": "Oilstreet",
-    "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File%3AGenbaku_Dome04-r.JPG"
-   }
+   "image": null
   },
   {
    "slug": "hiroshima-prefectural-art-museum",

@@ -115,6 +115,11 @@ def is_city_article(title: str, o: dict) -> bool:
     perfect token match against the city and inherits a photo of the wrong subject.
     We already know each option's city, so just say no.
     """
+    # Ward / district articles: "Hakata-ku, Fukuoka" is not a photo of Hakata food.
+    if re.search(r"-\s*ku\s*,", title, re.I) and "ku" not in o["name"].lower():
+        return True
+    if re.search(r"\b(prefecture|province|city)\b", title, re.I) and flatten(o["name"]) not in flatten(title):
+        return True
     head = flatten(title.split(",")[0])
     if not head:
         return False
