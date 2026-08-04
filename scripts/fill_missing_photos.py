@@ -177,23 +177,44 @@ def try_wiki_name(o: dict, used: set[str], dry: bool) -> dict | None:
     results = wiki_name_search(o["name"], o.get("city") or "")
     time.sleep(PAUSE)
     best, best_score, best_dist = None, 0.0, None
+    has_coords = bool(o.get("lat") and o.get("lng"))
     for r in results:
         title = r["title"]
         if title in used or is_wrong_subject(title, o):
             continue
-        s = score(o["name"], title)
-        if s < 0.55:
+        # Language/culture articles share place names and have no photo of the place.
+        if re.search(r"\b(dialect|language|cuisine|people|clan|period|station)\b", title, re.I):
             continue
+        s = score(o["name"], title)
         dist = None
-        if o.get("lat") and o.get("lng"):
-            coords = wiki_coords(title)
-            time.sleep(PAUSE)
-            if coords:
-                dist = haversine_m((o["lat"], o["lng"]), coords)
-                if dist > MAX_DISTANCE_M:
-                    continue
-        if s > best_score:
-            best, best_score, best_dist = title, s, dist
+        coords = wiki_coords(title)
+        time.sleep(PAUSE)
+        if has_coords:
+            # With known coordinates we require the article to sit nearby.
+            # This is what stops "Hakata" matching "Hakata dialect".
+            if not coords:
+                continue
+            dist = haversine_m((o["lat"], o["lng"]), coords)
+            if dist > MAX_DISTANCE_M:
+                continue
+        elif coords:
+            # City-level options: at least insist the article is somewhere in Japan.
+            lat, lng = coords
+            if not (24.0 <= lat <= 46.5 and 122.0 <= lng <= 146.0):
+                continue
+            dist = 0
+        # Token score can be weak when English common names differ from the
+        # Wikipedia title ("Atomic Bomb Dome" → "Hiroshima Peace Memorial").
+        # A top search hit sitting within a few hundred metres is still good.
+        rank = results.index(r)
+        near_top = has_coords and dist is not None and dist < 400 and rank < 3
+        if s < 0.55 and not (near_top and s >= 0.12):
+            if not has_coords and s < 0.7:
+                continue
+            if has_coords and not near_top:
+                continue
+        if s > best_score or (near_top and (best is None or dist < (best_dist or 9e9))):
+            best, best_score, best_dist = title, max(s, best_score), dist
     if not best:
         return None
     got = page_image(best)

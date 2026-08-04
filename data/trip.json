@@ -4,7 +4,7 @@
   "hubs": 8,
   "options": 311,
   "packages": 125,
-  "withPhoto": 85
+  "withPhoto": 95
  },
  "hubs": [
   {
@@ -2652,7 +2652,16 @@
    "packages": [
     "07 Kyushu/Takachiho :: Amanoiwato Shrine"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/amanoiwato-shrine.jpg",
+    "articleTitle": "Amanoiwato Shrine",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "aoshima-shrine",
@@ -2764,7 +2773,16 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=43.76861,142.48083",
    "url": "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/asahiyama-zoo.jpg",
+    "articleTitle": "Asahiyama Zoo",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "aso-caldera-cycling",
@@ -2867,7 +2885,16 @@
    "packages": [
     "07 Kyushu/Mt Aso :: Mt Aso / Kusasenri grasslands"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/aso-kuju-national-park.jpg",
+    "articleTitle": "Aso-Kuju National Park",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "asuka",
@@ -2897,7 +2924,16 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.46494,135.79816",
    "url": "",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/asuka.jpg",
+    "articleTitle": "Asuka",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "atomic-bomb-dome",
@@ -3026,7 +3062,16 @@
     "07 Kyushu/Beppu Yufuin :: Beppu day trip",
     "07 Kyushu/Beppu Yufuin :: Beppu overnight package"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/beppu-hot-sand-bath.jpg",
+    "articleTitle": "Beppu Hot Sand Bath",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "beppu-tower",
@@ -3099,7 +3144,16 @@
    "packages": [
     "03 Kyoto/Uji :: Uji + Chazuna / tea experience deep dive"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/chazuna-tea-park-uji.jpg",
+    "articleTitle": "Chazuna Tea Park Uji",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "chikugo-rail-kitchen",
@@ -3391,7 +3445,16 @@
    "packages": [
     "06 Sapporo/Furano Biei :: Furano / Biei"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/farm-tomita.jpg",
+    "articleTitle": "Farm Tomita",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "forge-desakai-blacksmith",
@@ -3453,7 +3516,16 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=43.06451,141.35347",
    "url": "https://www.visit-hokkaido.jp/en/spot/detail_11185.html",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/former-hokkaido-government-office.jpg",
+    "articleTitle": "Former Hokkaido Government Office",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "fukinono-falls",
@@ -3653,7 +3725,16 @@
    "packages": [
     "06 Sapporo/Jozankei :: Jōzankei onsen afternoon/evening"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/futami-suspension-bridge.jpg",
+    "articleTitle": "Futami Suspension Bridge",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "gin-no-yu",
@@ -4314,7 +4395,16 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=42.96694,141.33111",
    "url": "https://www.takinoreien.com/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/hill-of-the-buddha.jpg",
+    "articleTitle": "Hill of the Buddha",
+    "artist": "reattached from prior fill",
+    "license": "see ATTRIBUTION.md",
+    "licenseUrl": "",
+    "page": "",
+    "source": "reattached",
+    "distanceM": null
+   }
   },
   {
    "slug": "himeji-castle",
