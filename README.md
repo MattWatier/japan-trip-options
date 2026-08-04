@@ -36,25 +36,43 @@ across re-exports.
 
 ## Photos
 
-Options are photographed from Wikimedia Commons, but a wrong photo is worse than no
-photo, so a candidate has to pass two tests before it is used:
+Options get a photo in this order:
 
-1. Wikipedia's geosearch finds the article **within 900 m of the option's own
-   coordinates**, which we already store in the vault.
-2. The article title actually matches the option name — with an explicit rule against
-   a town's own article, so "Kochi Castle" can't quietly inherit a photo of Kōchi city.
+1. **Already attached** Wikimedia Commons photos (matched by coordinates).
+2. **`fill_missing_photos.py`** — the place's own `og:image`, then a Wikipedia
+   name search validated against coordinates.
+3. **`fetch_google_places.py`** — Google Places (New) photos, the same pictures
+   that show up on Google Maps. Needs a free API key (see below).
 
-Anything that fails is left with a generated placeholder tile. Options with no
-coordinates, and things that aren't places at all (tours, cooking classes), are never
-looked up. Each photo keeps its author and licence and shows them on the option.
-
-Useful flags:
+Tours, workshops and food experiences stay blank on purpose — they aren't a
+single place. A blank tile beats a wrong picture.
 
 ```bash
-python3 scripts/fetch_images.py --dry-run     # match without downloading
-python3 scripts/fetch_images.py --recheck     # retry previous misses
-python3 scripts/fetch_images.py --revalidate  # drop photos that fail current rules
+python3 scripts/fetch_images.py               # Wikimedia by coordinates
+python3 scripts/fill_missing_photos.py        # official sites + Wikipedia by name
+# optional, for the remaining gaps:
+export GOOGLE_PLACES_API_KEY=...              # Places API (New) on Google Cloud
+python3 scripts/fetch_google_places.py
 ```
+
+Useful flags on the Wikimedia script:
+
+```bash
+python3 scripts/fetch_images.py --dry-run
+python3 scripts/fetch_images.py --recheck
+python3 scripts/fetch_images.py --revalidate
+```
+
+### Google Places key (optional)
+
+1. Open [Places API (New)](https://console.cloud.google.com/apis/library/places.googleapis.com) and enable it.
+2. Create an API key and (optionally) restrict it to Places API.
+3. Put it in `.env` as `GOOGLE_PLACES_API_KEY=...` or export it, then run
+   `fetch_google_places.py`.
+
+Photos from Google stay marked for **private trip use only** in the attribution
+file. Don't republish the site publicly with those photos without checking Google's
+geo guidelines.
 
 ## Running it locally
 
