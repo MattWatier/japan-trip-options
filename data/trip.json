@@ -1,10 +1,10 @@
 {
- "generated": "2026-08-03",
+ "generated": "2026-08-04",
  "counts": {
   "hubs": 8,
-  "options": 311,
+  "options": 309,
   "packages": 125,
-  "withPhoto": 95
+  "withPhoto": 132
  },
  "hubs": [
   {
@@ -131,8 +131,6 @@
      "note": "Chūrei-tō Maps · Arakurayama Sengen Park · Fujikyu train to Shimoyoshida, then stairs.",
      "options": [
       "Arakurayama Sengen Park",
-      "Higashikawa Clock Shop Street",
-      "Lawson Kawaguchiko Station",
       "Oishi Park"
      ]
     },
@@ -2969,11 +2967,12 @@
     "src": "images/options/atomic-bomb-dome.jpg",
     "article": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial",
     "articleTitle": "Hiroshima Peace Memorial",
-    "distanceM": 291,
+    "distanceM": 0,
     "artist": "Oilstreet",
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File%3AGenbaku_Dome04-r.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File%3AGenbaku_Dome04-r.JPG",
+    "source": "wikipedia-manual"
    }
   },
   {
@@ -3339,7 +3338,17 @@
    "packages": [
     "07 Kyushu/Miyazaki :: Miyazaki coast package"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/devil-s-washboard.jpg",
+    "article": "https://en.wikipedia.org/wiki/Aoshima%2C_Miyazaki",
+    "articleTitle": "Aoshima, Miyazaki",
+    "distanceM": 264,
+    "artist": "松岡明芳",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2021-01-07_Aoshima_Island_%28Miyazaki%29Aerial_photography%E9%9D%92%E5%B3%B6_%28%E5%AE%AE%E5%B4%8E%E7%9C%8C%29DJI_0246_%282%29%E7%A9%BA%E6%92%AE.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "dogo-onsen",
@@ -4071,7 +4080,17 @@
     "07 Kyushu :: Hakata / Canal City + ramen focus",
     "07 Kyushu :: Hakata daytime food tour"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/hakata.jpg",
+    "article": "https://en.wikipedia.org/wiki/Hakata-ku%2C_Fukuoka",
+    "articleTitle": "Hakata-ku, Fukuoka",
+    "distanceM": 478,
+    "artist": "ZENsan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHakata_Port_01.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "hatcho-miso-brewery-tour-okazaki",
@@ -4268,38 +4287,6 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=33.19707,131.21119",
    "url": "",
    "packages": [],
-   "image": null
-  },
-  {
-   "slug": "higashikawa-clock-shop-street",
-   "name": "Higashikawa Clock Shop Street",
-   "description": "Showa-era street pointing straight at Fuji; the manga-like retro shot.",
-   "flag": "",
-   "hub": "02 Kawaguchiko",
-   "city": "Fujiyoshida",
-   "region": "Chubu",
-   "kind": "viewpoint",
-   "category": "sights",
-   "status": "idea",
-   "mustDo": false,
-   "hours": 1.0,
-   "effort": "easy",
-   "indoor": "mixed",
-   "booking": "walk-in",
-   "seasonMay": "good",
-   "styleSlot": "",
-   "closedDays": "",
-   "costJpy": null,
-   "transitMin": null,
-   "car": false,
-   "lat": 35.48746,
-   "lng": 138.80783,
-   "geoPrecision": "city",
-   "maps": "https://www.google.com/maps/search/?api=1&query=35.48746,138.80783",
-   "url": "",
-   "packages": [
-    "02 Kawaguchiko :: Lakeside walk + viewpoint (Chūrei-tō / lake shore)"
-   ],
    "image": null
   },
   {
@@ -4506,15 +4493,25 @@
    "costJpy": null,
    "transitMin": null,
    "car": false,
-   "lat": 35.41866,
-   "lng": 138.87683,
-   "geoPrecision": "city",
-   "maps": "https://www.google.com/maps/search/?api=1&query=35.41866,138.87683",
+   "lat": 35.4247,
+   "lng": 138.90082,
+   "geoPrecision": "exact",
+   "maps": "https://maps.app.goo.gl/xg71AMgTFc5gmTnu9",
    "url": "",
    "packages": [
     "02 Kawaguchiko :: Sightseeing bus loop"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/hirano-beach.jpg",
+    "article": "",
+    "articleTitle": "Hirano Beach",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault (private trip use)",
+    "license": "from planning vault (private trip use)",
+    "licenseUrl": "",
+    "page": "user-provided chat asset",
+    "source": "vault-user"
+   }
   },
   {
    "slug": "hiroshima-bar-hopping-food-tour",
@@ -4742,7 +4739,17 @@
     "05 Hiroshima :: Peace Memorial Park + Museum",
     "05 Hiroshima :: Peace Park guided visit"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/hiroshima-peace-memorial-park.jpg",
+    "article": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Park",
+    "articleTitle": "Hiroshima Peace Memorial Park",
+    "distanceM": 0,
+    "artist": "Balon Greyjoy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20181111_Hiroshima_Memorial_Cenotaph-1.jpg",
+    "source": "wikipedia-manual"
+   }
   },
   {
    "slug": "hiroshima-prefectural-art-museum",
@@ -4978,7 +4985,17 @@
    "packages": [
     "06 Sapporo/Jozankei :: Jōzankei onsen afternoon/evening"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/hoheikyo-dam.jpg",
+    "article": "https://www.sapporo.travel/en/spot/facility/hoheikyo_dam/",
+    "articleTitle": "Hoheikyo Dam | List of Attractions | Tourist Attractions | Welcome to Sapporo",
+    "distanceM": 0,
+    "artist": "Hoheikyo Dam | List of Attractions | Tourist Attractions | Welcome to Sapporo",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.sapporo.travel/en/spot/facility/hoheikyo_dam/",
+    "page": "https://www.sapporo.travel/en/spot/facility/hoheikyo_dam/",
+    "source": "og"
+   }
   },
   {
    "slug": "hoheikyo-onsen",
@@ -5010,7 +5027,17 @@
    "packages": [
     "06 Sapporo/Jozankei :: Jōzankei onsen afternoon/evening"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/hoheikyo-onsen.jpg",
+    "article": "https://hoheikyo.co.jp/",
+    "articleTitle": "やわらぎの里 豊平峡温泉 公式ホームページ",
+    "distanceM": 0,
+    "artist": "やわらぎの里 豊平峡温泉 公式ホームページ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hoheikyo.co.jp/",
+    "page": "https://hoheikyo.co.jp/",
+    "source": "og"
+   }
   },
   {
    "slug": "hokkaido-jingu",
@@ -5599,7 +5626,17 @@
    "packages": [
     "06 Sapporo/Jozankei :: Jōzankei onsen afternoon/evening"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/jozankei-onsen.jpg",
+    "article": "https://jozankei.jp/en/",
+    "articleTitle": "Jozankei Tourist Association Official Website",
+    "distanceM": 0,
+    "artist": "Jozankei Tourist Association Official Website",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://jozankei.jp/en/",
+    "page": "https://jozankei.jp/en/",
+    "source": "og"
+   }
   },
   {
    "slug": "kakukyu-hatcho-miso",
@@ -5629,7 +5666,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.95488,137.17282",
    "url": "https://hakko-umami.com/en/spot/16317",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/kakukyu-hatcho-miso.jpg",
+    "article": "https://hakko-umami.com/en/spot/16317",
+    "articleTitle": "\n         Kakukyu Hatcho Miso (Hatcho Miso Village) - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "distanceM": 0,
+    "artist": "\n         Kakukyu Hatcho Miso (Hatcho Miso Village) - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/spot/16317",
+    "page": "https://hakko-umami.com/en/spot/16317",
+    "source": "og"
+   }
   },
   {
    "slug": "kakukyu-hatcho-village-restaurant",
@@ -6689,7 +6736,17 @@
    "packages": [
     "07 Kyushu/Mt Aso :: Mt Aso / Kusasenri grasslands"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/kusasenri.jpg",
+    "article": "https://en.wikipedia.org/wiki/Aso_Volcano_Museum",
+    "articleTitle": "Aso Volcano Museum",
+    "distanceM": 155,
+    "artist": "STA3816",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAso_Volcano_Museum.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "kushida-shrine",
@@ -6852,7 +6909,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=42.75000,141.35000",
    "url": "https://www.welcome-to-chitose.jp/en/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/lake-shikotsu.jpg",
+    "article": "https://www.welcome-to-chitose.jp/en/",
+    "articleTitle": "ちとせの観光 - 北海道千歳の観光サイト【千歳市公式】",
+    "distanceM": 0,
+    "artist": "ちとせの観光 - 北海道千歳の観光サイト【千歳市公式】",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.welcome-to-chitose.jp/en/",
+    "page": "https://www.welcome-to-chitose.jp/en/",
+    "source": "og"
+   }
   },
   {
    "slug": "lake-toya-and-usuzan-ropeway",
@@ -6882,7 +6949,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=42.59722,140.86111",
    "url": "https://www.laketoya.com/en/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/lake-toya-and-usuzan-ropeway.jpg",
+    "article": "https://www.laketoya.com/en/",
+    "articleTitle": "Toyako Onsen Tourist Association",
+    "distanceM": 0,
+    "artist": "Toyako Onsen Tourist Association",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.laketoya.com/en/",
+    "page": "https://www.laketoya.com/en/",
+    "source": "og"
+   }
   },
   {
    "slug": "lake-yamanaka",
@@ -6924,38 +7001,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File%3AMount_Fuji_and_Lake_Yamanaka.JPG"
    }
-  },
-  {
-   "slug": "lawson-kawaguchiko-station",
-   "name": "Lawson Kawaguchiko Station",
-   "description": "The convenience-store-and-Fuji photo; barriers now in place, keep it brief.",
-   "flag": "",
-   "hub": "02 Kawaguchiko",
-   "city": "Fujikawaguchiko",
-   "region": "Chubu",
-   "kind": "viewpoint",
-   "category": "sights",
-   "status": "idea",
-   "mustDo": false,
-   "hours": 0.5,
-   "effort": "easy",
-   "indoor": "mixed",
-   "booking": "walk-in",
-   "seasonMay": "good",
-   "styleSlot": "",
-   "closedDays": "",
-   "costJpy": null,
-   "transitMin": null,
-   "car": false,
-   "lat": 35.50107,
-   "lng": 138.7653,
-   "geoPrecision": "city",
-   "maps": "https://www.google.com/maps/search/?api=1&query=35.50107,138.76530",
-   "url": "",
-   "packages": [
-    "02 Kawaguchiko :: Lakeside walk + viewpoint (Chūrei-tō / lake shore)"
-   ],
-   "image": null
   },
   {
    "slug": "machu-picchu-usa",
@@ -7017,7 +7062,17 @@
    "packages": [
     "07 Kyushu :: Arrival / settle Fukuoka"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/maizuru-park.jpg",
+    "article": "https://en.wikipedia.org/wiki/Fukuoka_Castle",
+    "articleTitle": "Fukuoka Castle",
+    "distanceM": 55,
+    "artist": "Mukai",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFukuoka_Castle_Simonohasi_Otemon_gate.JPG",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "mamedamachi",
@@ -7077,7 +7132,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.46708,134.31939",
    "url": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/marukin-soy-sauce-museum.jpg",
+    "article": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "articleTitle": "Discover a Heritage of Fermentation on Shodoshima: Soy Sauce Brewery Tour and Tasting",
+    "distanceM": 0,
+    "artist": "Discover a Heritage of Fermentation on Shodoshima: Soy Sauce Brewery Tour and Tasting",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "page": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "source": "og"
+   }
   },
   {
    "slug": "maruya-hatcho-miso",
@@ -7107,7 +7172,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.95488,137.17282",
    "url": "https://hakko-umami.com/en/spot/16316",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/maruya-hatcho-miso.jpg",
+    "article": "https://hakko-umami.com/en/spot/16316",
+    "articleTitle": "\n         Maruya Hatcho Miso - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "distanceM": 0,
+    "artist": "\n         Maruya Hatcho Miso - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/spot/16316",
+    "page": "https://hakko-umami.com/en/spot/16316",
+    "source": "og"
+   }
   },
   {
    "slug": "maruyama-park",
@@ -7330,7 +7405,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.95488,137.17282",
    "url": "https://hakko-umami.com/en/23970",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/mikawa-warriors-and-ieyasu-museum.jpg",
+    "article": "https://hakko-umami.com/en/23970",
+    "articleTitle": "\n        Okazaki's Culinary Heritage: The 400-Year Legacy of Hatcho Miso and Its Connection to the Shogunate - HAKKO - D",
+    "distanceM": 0,
+    "artist": "\n        Okazaki's Culinary Heritage: The 400-Year Legacy of Hatcho Miso and Its Connection to the Shogunate - HAKKO - D",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/23970",
+    "page": "https://hakko-umami.com/en/23970",
+    "source": "og"
+   }
   },
   {
    "slug": "minato-shrine",
@@ -7392,7 +7477,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=42.90083,140.75694",
    "url": "https://www.town.kutchan.hokkaido.jp/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/mishima-shibazakura-garden.jpg",
+    "article": "https://www.town.kutchan.hokkaido.jp/",
+    "articleTitle": "倶知安町",
+    "distanceM": 0,
+    "artist": "倶知安町",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.town.kutchan.hokkaido.jp/",
+    "page": "https://www.town.kutchan.hokkaido.jp/",
+    "source": "og"
+   }
   },
   {
    "slug": "miyagawa-morning-market",
@@ -7950,12 +8045,22 @@
    "lat": 42.98139,
    "lng": 141.32583,
    "geoPrecision": "exact",
-   "maps": "https://www.google.com/maps/search/?api=1&query=42.98139,141.32583",
+   "maps": "https://maps.app.goo.gl/xf38jJpXvZ8DpWte7",
    "url": "https://mt-moiwa.jp/en/guide/",
    "packages": [
     "06 Sapporo :: Mt. Moiwa ropeway (dusk/night view)"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/mount-moiwa-ropeway.jpg",
+    "article": "https://mt-moiwa.jp/en/guide/",
+    "articleTitle": "Mount Moiwa Ropeway",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/Mount Moiwa Ropeway.jpg",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "mount-tengu-ropeway",
@@ -7987,7 +8092,17 @@
    "packages": [
     "06 Sapporo/Otaru :: Otaru canal + warehouse streets + lunch"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/mount-tengu-ropeway.jpg",
+    "article": "https://tenguyama.ckk.chuo-bus.co.jp/en/ropeway/",
+    "articleTitle": "Tenguyama Ropeway | Otaru Tenguyama Ropeway/Ski Resort",
+    "distanceM": 0,
+    "artist": "Tenguyama Ropeway | Otaru Tenguyama Ropeway/Ski Resort",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://tenguyama.ckk.chuo-bus.co.jp/en/ropeway/",
+    "page": "https://tenguyama.ckk.chuo-bus.co.jp/en/ropeway/",
+    "source": "og"
+   }
   },
   {
    "slug": "mount-tsurumi-ropeway",
@@ -9243,15 +9358,25 @@
    "costJpy": null,
    "transitMin": null,
    "car": false,
-   "lat": 35.52329,
-   "lng": 138.74654,
+   "lat": 35.5229,
+   "lng": 138.74575,
    "geoPrecision": "exact",
-   "maps": "https://www.google.com/maps/search/?api=1&query=35.52329,138.74654",
+   "maps": "https://maps.app.goo.gl/fQdouBxXbUC22dBq9",
    "url": "",
    "packages": [
     "02 Kawaguchiko :: Lakeside walk + viewpoint (Chūrei-tō / lake shore)"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/oishi-park.jpg",
+    "article": "",
+    "articleTitle": "Oishi Park",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/Oishi Park.png",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "okayama",
@@ -9320,7 +9445,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.92564,137.15725",
    "url": "https://hakko-umami.com/en/spot/8373",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/okazaki-castle.jpg",
+    "article": "https://hakko-umami.com/en/spot/8373",
+    "articleTitle": "\n         Okazaki Castle - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "distanceM": 0,
+    "artist": "\n         Okazaki Castle - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/spot/8373",
+    "page": "https://hakko-umami.com/en/spot/8373",
+    "source": "og"
+   }
   },
   {
    "slug": "okazaki-castle-park",
@@ -9350,7 +9485,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.95488,137.17282",
    "url": "https://hakko-umami.com/en/spot/16334",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/okazaki-castle-park.jpg",
+    "article": "https://hakko-umami.com/en/spot/16334",
+    "articleTitle": "\n         Okazaki Castle Park - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "distanceM": 0,
+    "artist": "\n         Okazaki Castle Park - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/spot/16334",
+    "page": "https://hakko-umami.com/en/spot/16334",
+    "source": "og"
+   }
   },
   {
    "slug": "okonomimura",
@@ -9476,7 +9621,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.21660,135.60470",
    "url": "",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/okunoin-cemetery.jpg",
+    "article": "https://en.wikipedia.org/wiki/Okunoin",
+    "articleTitle": "Okunoin",
+    "distanceM": 104,
+    "artist": "Dokudami",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGobyoubasi.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "okunoin-night-tour",
@@ -9599,7 +9754,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.51950,135.84649",
    "url": "",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/omiwa-shrine.jpg",
+    "article": "https://en.wikipedia.org/wiki/%C5%8Cmiwa_Shrine",
+    "articleTitle": "Ōmiwa Shrine",
+    "distanceM": 1192,
+    "artist": "user:Amagase",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOhmiwa_Shrine_Big_Torii.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "one-hour-kintsugi-discovery-workshop",
@@ -9629,7 +9794,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=35.67686,139.76389",
    "url": "https://eng.kintsugi-girl.com/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/one-hour-kintsugi-discovery-workshop.jpg",
+    "article": "https://eng.kintsugi-girl.com/",
+    "articleTitle": "One-Hour Kintsugi Discovery Workshop",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/One-Hour Kintsugi Discovery Workshop.png",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "onomichi",
@@ -9776,7 +9951,7 @@
   {
    "slug": "oshino-hakkai",
    "name": "Oshino Hakkai",
-   "description": "UNESCO-listed village of eight crystal-clear spring ponds fed by Fuji snowmelt.",
+   "description": "Small scenic village with eight ponds, Mt. Fuji views, and food & souvenir vendors.",
    "flag": "",
    "hub": "02 Kawaguchiko",
    "city": "Oshino",
@@ -9795,15 +9970,25 @@
    "costJpy": null,
    "transitMin": null,
    "car": false,
-   "lat": 35.46024,
-   "lng": 138.8327,
+   "lat": 35.46007,
+   "lng": 138.83247,
    "geoPrecision": "exact",
-   "maps": "https://www.google.com/maps/search/?api=1&query=35.46024,138.83270",
+   "maps": "https://maps.app.goo.gl/W8S5WENyHg3tTvnEA",
    "url": "",
    "packages": [
     "02 Kawaguchiko :: Cave / shrine / secondary add-on"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/oshino-hakkai.jpg",
+    "article": "",
+    "articleTitle": "Oshino Hakkai",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault (private trip use)",
+    "license": "from planning vault (private trip use)",
+    "licenseUrl": "",
+    "page": "user-provided chat asset",
+    "source": "vault-user"
+   }
   },
   {
    "slug": "otaru",
@@ -9835,7 +10020,17 @@
    "packages": [
     "06 Sapporo/Otaru :: Otaru canal + warehouse streets + lunch"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/otaru.jpg",
+    "article": "https://en.wikipedia.org/wiki/Otaru",
+    "articleTitle": "Otaru",
+    "distanceM": 1762,
+    "artist": "Komatta",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOtaru_Montage.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "otaru-canal-cruise",
@@ -9931,7 +10126,17 @@
    "packages": [
     "07 Kyushu/Nagasaki :: Nagasaki overnight package"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/oura-cathedral.jpg",
+    "article": "https://en.wikipedia.org/wiki/Oura_Church",
+    "articleTitle": "Oura Church",
+    "distanceM": 244,
+    "artist": "Houjyou-Minori",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOura_Cathedral_20180623.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "oyunuma-natural-footbath",
@@ -10474,7 +10679,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.95626,137.15302",
    "url": "https://hakko-umami.com/en/spot/16315",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/sakura-bakery-okazaki.jpg",
+    "article": "https://hakko-umami.com/en/spot/16315",
+    "articleTitle": "\n         Sakura Bakery - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "distanceM": 0,
+    "artist": "\n         Sakura Bakery - HAKKO - Discover Japan’s Fermented Food Culture-    ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://hakko-umami.com/en/spot/16315",
+    "page": "https://hakko-umami.com/en/spot/16315",
+    "source": "og"
+   }
   },
   {
    "slug": "sakura-falls",
@@ -10536,7 +10751,17 @@
    "packages": [
     "07 Kyushu/Beppu Yufuin :: Beppu overnight package"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/sakura-yu-private-onsen.jpg",
+    "article": "https://maps.app.goo.gl/5N4n44sJ1azpmxbS7",
+    "articleTitle": "  Google Maps  ",
+    "distanceM": 0,
+    "artist": "  Google Maps  ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://maps.app.goo.gl/5N4n44sJ1azpmxbS7",
+    "page": "https://maps.app.goo.gl/5N4n44sJ1azpmxbS7",
+    "source": "og"
+   }
   },
   {
    "slug": "sakuradaki-waterfall",
@@ -10866,7 +11091,17 @@
    "packages": [
     "06 Sapporo :: Chopstick + ramen workshop"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/sapporo-chopstick-and-ramen-making.jpg",
+    "article": "https://www.getyourguide.com/sapporo-l32644/sapporo-chopstick-and-ramen-making-experience-t1182332/",
+    "articleTitle": "Sapporo Chopstick and Ramen Making",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/Sapporo Chopstick and Ramen Making.avif",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "sapporo-lilac-festival",
@@ -10898,7 +11133,17 @@
    "packages": [
     "06 Sapporo :: Odori Park + lilac / spring flower time"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/sapporo-lilac-festival.jpg",
+    "article": "https://www.visit-hokkaido.jp/en/event/detail_11056.html",
+    "articleTitle": "Sapporo Lilac Festival",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/Sapporo Lilac Festival.jpg",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "sapporo-ramen-alley",
@@ -10995,7 +11240,17 @@
     "06 Sapporo :: Sapporo Susukino bar-hopping food tour",
     "06 Sapporo :: Sapporo Susukino food tour"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/sapporo-susukino-bar-hopping-food-tour.jpg",
+    "article": "https://www.magical-trip.com/",
+    "articleTitle": "Sapporo Susukino Bar Hopping Food Tour",
+    "distanceM": 0,
+    "artist": "from JapanPlanning vault Raw Files (private trip use)",
+    "license": "from planning vault Raw Files (private trip use)",
+    "licenseUrl": "",
+    "page": "Japan/Raw Files/Images/Sapporo Susukino Bar Hopping Food Tour.webp",
+    "source": "vault-raw"
+   }
   },
   {
    "slug": "sapporo-tv-tower",
@@ -11477,7 +11732,17 @@
    "packages": [
     "06 Sapporo/Furano Biei :: Furano / Biei"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/shirogane-blue-pond.jpg",
+    "article": "https://www.biei-hokkaido.jp/en/",
+    "articleTitle": "Biei Tourism Association",
+    "distanceM": 0,
+    "artist": "Biei Tourism Association",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.biei-hokkaido.jp/en/",
+    "page": "https://www.biei-hokkaido.jp/en/",
+    "source": "og"
+   }
   },
   {
    "slug": "shiroyama-observation-deck",
@@ -11599,7 +11864,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=34.48977,134.26037",
    "url": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/shokin-soy-sauce.jpg",
+    "article": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "articleTitle": "Discover a Heritage of Fermentation on Shodoshima: Soy Sauce Brewery Tour and Tasting",
+    "distanceM": 0,
+    "artist": "Discover a Heritage of Fermentation on Shodoshima: Soy Sauce Brewery Tour and Tasting",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "page": "https://wabunka-lux.jp/experiences/en_setouchiseawind/",
+    "source": "og"
+   }
   },
   {
    "slug": "shukkei-en-garden",
@@ -11869,7 +12144,17 @@
    "packages": [
     "07 Kyushu/Takachiho :: Takachiho Gorge"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/takachiho-gorge.jpg",
+    "article": "https://takachiho-kanko.info/en/",
+    "articleTitle": "高千穂町観光協会【公式】 宮崎県 高千穂の観光・宿泊・イベント情報 ",
+    "distanceM": 0,
+    "artist": "高千穂町観光協会【公式】 宮崎県 高千穂の観光・宿泊・イベント情報 ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://takachiho-kanko.info/en/",
+    "page": "https://takachiho-kanko.info/en/",
+    "source": "og"
+   }
   },
   {
    "slug": "takachiho-gorge-boat-rental",
@@ -11993,7 +12278,17 @@
    "maps": "https://www.google.com/maps/search/?api=1&query=43.05639,141.35361",
    "url": "https://www.tanukikoji.or.jp/",
    "packages": [],
-   "image": null
+   "image": {
+    "src": "images/options/tanukikoji-shopping-street.jpg",
+    "article": "https://www.tanukikoji.or.jp/",
+    "articleTitle": "【公式】ようこそ札幌狸小路商店街へ",
+    "distanceM": 0,
+    "artist": "【公式】ようこそ札幌狸小路商店街へ",
+    "license": "from official/source page (private trip use)",
+    "licenseUrl": "https://www.tanukikoji.or.jp/",
+    "page": "https://www.tanukikoji.or.jp/",
+    "source": "og"
+   }
   },
   {
    "slug": "tatsumaki-jigoku",
@@ -12594,7 +12889,17 @@
    "packages": [
     "08 Shikoku/Naruto :: Naruto whirlpool cruise + viewpoint"
    ],
-   "image": null
+   "image": {
+    "src": "images/options/uzunomichi-walkway.jpg",
+    "article": "https://en.wikipedia.org/wiki/Naruto_whirlpools",
+    "articleTitle": "Naruto whirlpools",
+    "distanceM": 340,
+    "artist": "",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANarutoStraitFlow.jpg",
+    "source": "wikipedia-name"
+   }
   },
   {
    "slug": "wazuka-obubu-tea-farm-tour",
