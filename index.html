@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan 2026 — options by hub</title>
+<meta name="description" content="Browse the candidate sights, tours and food stops for each base on our May 2026 Japan trip: what each one is, how long it takes, and when it's worth it.">
+<link rel="preload" href="data/trip.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <strong>Japan 2026</strong>
+        <small>options by hub</small>
+      </span>
+    </a>
+    <nav class="topnav">
+      <a href="#/" data-nav="home">Hubs</a>
+      <a href="#/all" data-nav="all">All options</a>
+      <button id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap" tabindex="-1">
+  <div id="view" aria-live="polite">
+    <p class="loading">Loading the trip data…</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>
+      A reading companion for our May 2026 trip — <strong>nothing here is booked</strong>.
+      These are candidates so everyone can see what a place actually is before we choose.
+    </p>
+    <p class="muted" id="footer-meta"></p>
+    <p class="muted">
+      Photos from <a href="https://commons.wikimedia.org/">Wikimedia Commons</a>, matched to each
+      place by coordinates; each photo credits its author and licence. Text is our own planning notes.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
